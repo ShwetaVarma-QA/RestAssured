@@ -11,7 +11,7 @@ public class ApiTest {
     @Test
     public void testing() {
 
-        String URL = "https://api.themoviedb.org/3/genre/movie/list?api_key=9360ced7b07565091204a823bd735339";
+        String URL = "https://api.themoviedb.org/3/genre/movie/list?api_key=";
         int statusCode = 200;
 
         given()
